@@ -1,0 +1,15 @@
+extends layout/app
+
+block page
+
+    include chunks/header
+
+    h1.title Главная страница
+
+    img(src="img/pattern-bloom-wallpaper.png", alt="imagealt")
+
+    ul.news 
+        each item in news
+            li= item.name
+
+    include chunks/footer 
