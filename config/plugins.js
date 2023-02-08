@@ -1,5 +1,4 @@
 import path from './path.js';
-import news from '../data/news.json' assert {type: 'json'}
 
 const isProd = process.argv.includes('--production');  //check flag
 const isDev = !isProd;
@@ -14,10 +13,7 @@ export default {
     },
 
     pug: {
-        pretty: true,
-        data: {
-            news: news
-        }
+        pretty: true
     },
 
     messages: {
