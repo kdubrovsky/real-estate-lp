@@ -27,7 +27,7 @@ const pug = () => {
     return gulp.src(path.pug.src)
         .pipe(plumber(plumberPUGSettings))
         .pipe(pugs(plugins.pug))
-        .pipe(webphtml())
+        // .pipe(webphtml())
         .pipe(gulp.dest(path.pug.dest))
 };
 
