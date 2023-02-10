@@ -123,6 +123,34 @@ html(lang="en")
                             p Schedule visits to multiple properties at once in one day without having to call them one by one. Check everything and find the best properties for rent
         section.about 
             .content-zone
+                .about__wrapper
+                    .section-header 
+                        .section-header__content
+                            .tag About us
+                            h2.section-header__title How much is your property worth now?
+                            .section-header__description 
+                                p We have built our reputation as true local area experts. We have gained more knowledge about buyer interests, our neighborhood and the market than any other brand because we live locally and work for local people.
+                        a.btn-cta-link Learn more
+                    .about__content
+                        .about__rating-card 
+                            p.about__rating-amount 4.8
+                            .stars 
+                                .stars__item--full
+                                .stars__item--full
+                                .stars__item--full
+                                .stars__item--full
+                                .stars__item--empty
+                            p.about__trusted-title Trusted on
+                            p.about__reviews-count 500+ Reviews
+                        .about__indicators-wrapper 
+                            .about__indicator-item
+                                p.about__indicator-value 250+
+                                p.about__indicator-description Property sale
+                            .about__indicator-item
+                                p.about__indicator-value 550+
+                                p.about__indicator-description Apartment Rent
+                        .about__photo
+                            img(src="./img/office-interior.jpg", alt="Office interior")
         section.feedback 
             .content-zone 
                 .section-header 
@@ -162,4 +190,41 @@ html(lang="en")
                                 p.testimonial-card__author-name Makenna Korsgaard
                                 p.testimonial-card__author-job UX Researcher
         footer.page-footer 
-            .content-zone 
+            .content-zone
+                .page-footer__wrapper 
+                    .page-footer__main-info
+                        .logo   
+                            a(href="#")
+                                img(src="./img/logo-mulih.svg", alt="Mulih Logotype")
+                        .page-footer__tagline We have built our reputation as true local area experts.
+                        .page-footer__subscribe-form 
+                            label.page-footer__subscribe-label(for="email") Newsletter
+                            input.page-footer__mail-input(type="text" id="email", name="email" placeholder="input your email")
+                            button.page-footer__btn-subscribe Send
+                    .page-footer__menu-wrapper
+                        .page-footer__menu 
+                            p.page-footer__column-title Service
+                            ul.page-footer__menu-list 
+                                li.page-footer__menu-item 
+                                    a.page-footer__menu-link About us
+                                li.page-footer__menu-item 
+                                    a.page-footer__menu-link Careers
+                                li.page-footer__menu-item 
+                                    a.page-footer__menu-link Terms & Conditions
+                                li.page-footer__menu-item 
+                                    a.page-footer__menu-link Privacy & Policy
+                        .page-footer__menu 
+                            p.page-footer__column-title Community
+                            ul.page-footer__menu-list 
+                                li.page-footer__menu-item 
+                                    a.page-footer__menu-link Find agents
+                                li.page-footer__menu-item 
+                                    a.page-footer__menu-link Lifestyle
+                                li.page-footer__menu-item 
+                                    a.page-footer__menu-link Legal notice
+                    .page-footer__social 
+                        .page-footer__column-header Follow us on
+                        .page-footer__social-links  
+                            a.page-footer__social-link--instagram(href="#") 
+                            a.page-footer__social-link--youtube(href="#") 
+                            a.page-footer__social-link--facebook(href="#")
