@@ -37,8 +37,8 @@ html(lang="en")
                         p Explore our range of beautiful properties with the addition of separate accommodation suitable for you.
                 .search-form 
                     ul.search-form__tabs 
-                        li.search-form__tab.searchform__tab--active Buy
-                        li.search-form__tab.searchform__tab--normal Rent
+                        li.search-form__tab.search-form__tab--active Buy
+                        li.search-form__tab.search-form__tab--normal Rent
                     form.search-form__buy
                     form.search-form__rent
         section.recomendations 
@@ -56,40 +56,40 @@ html(lang="en")
                             .property-card__photo 
                                 img(src="./img/property-1.jpg", alt="")
                             .property-card__main-content
-                                p.property-card__title Perum griya asri
+                                h3.property-card__title Perum griya asri
                                 p.property-card__location Bogor, Jawa Barat
                             .property-card__price-content 
                                 p.property-card__price $25,000
                                 p.property-card__area
                                     span.property-card__area-size 360m²
                                     span.property-card__area-type Living Area
-                            button.btn-action Send inquiry
+                        button.btn-action Send inquiry
                     .property-card
                         a.property-card__link-wrapper(href="#")
                             .property-card__photo 
                                 img(src="./img/property-2.jpg", alt="")
                             .property-card__main-content
-                                p.property-card__title Perum kencana asri
+                                h3.property-card__title Perum kencana asri
                                 p.property-card__location Bogor, Jawa Barat
                             .property-card__price-content 
                                 p.property-card__price $35,000
                                 p.property-card__area 
                                     span.property-card__area-size 360m²
                                     span.property-card__area-type Living Area
-                            button.btn-action Send inquiry
+                        button.btn-action Send inquiry
                     .property-card
                         a.property-card__link-wrapper(href="#")
                             .property-card__photo 
                                 img(src="./img/property-3.jpg", alt="")
                             .property-card__main-content
-                                p.property-card__title Perum rakjel elit
+                                h3.property-card__title Perum rakjel elit
                                 p.property-card__location Bogor, Jawa Barat
                             .property-card__price-content 
                                 p.property-card__price $40,000
                                 p.property-card__area
                                     span.property-card__area-size 360m²
                                     span.property-card__area-type Living Area
-                            button.btn-action Send inquiry
+                        button.btn-action Send inquiry
         section.features 
             .content-zone 
                 .section-header 
@@ -98,27 +98,27 @@ html(lang="en")
                         h2.section-header__title Giving you peace of mind
                 .features__grid 
                     .features__item
-                        p.features__item-title Comfortable
+                        h3.features__item-title Comfortable
                         .features__item-description
                             p Enjoy lifestyle amenities designed to provide every homeowners modern comfort, a stone's throw away from schools, churches, and hospitals.
                     .features__item
-                        p.features__item-title Extra security
+                        h3.features__item-title Extra security
                         .features__item-description
                             p You can connect with potential tenants without having to share your phone number. We also require all users to register to validate their legitimacy.                            
                     .features__item
-                        p.features__item-title Luxury
+                        h3.features__item-title Luxury
                         .features__item-description
                             p Find out how we provide the highest standard of professional property management to give you all the benefits of property.
                     .features__item
-                        p.features__item-title Best price
+                        h3.features__item-title Best price
                         .features__item-description
                             p Not sure what you should be charging for your property? Let us do the numbers for you—contact us today for a free rental appraisal on your home.
                     .features__item
-                        p.features__item-title Strategic location
+                        h3.features__item-title Strategic location
                         .features__item-description
                             p located in the city center close to the shopping center. Very good for areas surrounded by international education centers, start-up office centers.                            
                     .features__item
-                        p.features__item-title Efficient
+                        h3.features__item-title Efficient
                         .features__item-description
                             p Schedule visits to multiple properties at once in one day without having to call them one by one. Check everything and find the best properties for rent
         section.about 
@@ -134,21 +134,21 @@ html(lang="en")
                     .about__content
                         .about__rating-card 
                             p.about__rating-amount 4.8
-                            .stars 
-                                .stars__item--full
-                                .stars__item--full
-                                .stars__item--full
-                                .stars__item--full
-                                .stars__item--empty
-                            p.about__trusted-title Trusted on
+                            ul.stars 
+                                li.stars__item.stars__item--full
+                                li.stars__item.stars__item--full
+                                li.stars__item.stars__item--full
+                                li.stars__item.stars__item--full
+                                li.stars__item.stars__item--empty
+                            p.about__trusted-caption Trusted on
                             p.about__reviews-count 500+ Reviews
                         .about__indicators-wrapper 
                             .about__indicator-item
                                 p.about__indicator-value 250+
-                                p.about__indicator-description Property sale
+                                p.about__indicator-caption Property sale
                             .about__indicator-item
                                 p.about__indicator-value 550+
-                                p.about__indicator-description Apartment Rent
+                                p.about__indicator-caption Apartment Rent
                         .about__photo
                             img(src="./img/office-interior.jpg", alt="Office interior")
         section.feedback 
@@ -160,7 +160,7 @@ html(lang="en")
                     a.section-header__read-more(href="#") Learn more
                 .feedback__grid 
                     .testimonial-card 
-                        p.testimonial-card__title It proved to be exactly the kind of home we wanted.
+                        h3.testimonial-card__title It proved to be exactly the kind of home we wanted.
                         .testimonial-card__text
                             p We wish to express our thanks for your hard work in finding us a temporary home, which proved to be exactly what we wanted.
                         .testimonial-card__author 
@@ -170,7 +170,7 @@ html(lang="en")
                                 p.testimonial-card__author-name Jaydon Aminoff
                                 p.testimonial-card__author-job UX Designer
                     .testimonial-card 
-                        p.testimonial-card__title Nobody knows Portland and the peninsula better than David.
+                        h3.testimonial-card__title Nobody knows Portland and the peninsula better than David.
                         .testimonial-card__text
                             p My wife and I had a dream of downsizing from our house in Cape Elizabeth into a small condo closer to where we work and play in Portland.
                         .testimonial-card__author 
@@ -180,7 +180,7 @@ html(lang="en")
                                 p.testimonial-card__author-name Alfredo Donin
                                 p.testimonial-card__author-job UI Designer
                     .testimonial-card 
-                        p.testimonial-card__title He keeps his client's best interests in sharp focus
+                        h3.testimonial-card__title He keeps his client's best interests in sharp focus
                         .testimonial-card__text
                             p After working with David to sell my home in 2013, I was convinced that he’s the only realtor I’ll ever need. Since then, I’ve bought two properties and sold one.
                         .testimonial-card__author 
@@ -203,7 +203,7 @@ html(lang="en")
                             button.page-footer__btn-subscribe Send
                     .page-footer__menu-wrapper
                         .page-footer__menu 
-                            p.page-footer__column-title Service
+                            h3.page-footer__column-title Service
                             ul.page-footer__menu-list 
                                 li.page-footer__menu-item 
                                     a.page-footer__menu-link(href="#")  About us
@@ -214,7 +214,7 @@ html(lang="en")
                                 li.page-footer__menu-item 
                                     a.page-footer__menu-link(href="#") Privacy & Policy
                         .page-footer__menu 
-                            p.page-footer__column-title Community
+                            h3.page-footer__column-title Community
                             ul.page-footer__menu-list 
                                 li.page-footer__menu-item 
                                     a.page-footer__menu-link Find agents
@@ -223,8 +223,8 @@ html(lang="en")
                                 li.page-footer__menu-item 
                                     a.page-footer__menu-link Legal notice
                     .page-footer__social 
-                        .page-footer__column-header Follow us on
+                        h3.page-footer__column-title Follow us on
                         .page-footer__social-links  
-                            a.page-footer__social-link--instagram(href="#") 
-                            a.page-footer__social-link--youtube(href="#") 
-                            a.page-footer__social-link--facebook(href="#")
+                            a.page-footer__social-link.page-footer__social-link--instagram(href="#") 
+                            a.page-footer__social-link.page-footer__social-link--youtube(href="#") 
+                            a.page-footer__social-link.page-footer__social-link--facebook(href="#")
