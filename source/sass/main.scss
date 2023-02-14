@@ -1,9 +1,5 @@
-@import "./abstracts/_all";
+@import "_variables";
 
-@import "./core/_all";
+@import "_reset";
 
-@import "./components/_all";
-
-@import "./layouts/_all";
-
-@import "./blocks/_all";
+@import "_typography";
