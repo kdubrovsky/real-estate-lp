@@ -16,10 +16,10 @@ html(lang="en")
                     .logo
                         a(href='#')
                             img(src="./img/logo-mulih.svg", alt="Mulih Logotype")
-                    nav.heder-nav 
+                    nav.page-header__nav 
                         .main-menu 
                             ul.main-menu__list 
-                                li.main-menu__item 
+                                li.main-menu__item.main-menu__item--active 
                                     a.main-menu__link(href="#") Home
                                 li.main-menu__item 
                                     a.main-menu__link(href="#") Property
@@ -29,22 +29,23 @@ html(lang="en")
                                     a.main-menu__link(href="#") Service
                                 li.main-menu__item 
                                     a.main-menu__link(href="#") Contact
-                        .auth-controls
+                        .page-header__auth-controls
                             button.btn-secondary Sign In
                             button.btn-primary Login
         section.hero 
             .content-zone 
-                .hero__content
-                    .tag Real estate
-                    h1.hero__title Let's hunt for your dream residence
-                    .hero__description 
-                        p Explore our range of beautiful properties with the addition of separate accommodation suitable for you.
-                .search-form 
-                    ul.search-form__tabs 
-                        li.search-form__tab.search-form__tab--active Buy
-                        li.search-form__tab.search-form__tab--normal Rent
-                    form.search-form__buy
-                    form.search-form__rent
+                .hero__wrapper
+                    .hero__content
+                        .tag Real estate
+                        h1.hero__title Let's hunt for your dream residence
+                        .hero__description 
+                            p Explore our range of beautiful properties with the addition of separate accommodation suitable for you.
+                    .search-form 
+                        ul.search-form__tabs 
+                            li.search-form__tab.search-form__tab--active Buy
+                            li.search-form__tab.search-form__tab--normal Rent
+                        form.search-form__buy
+                        form.search-form__rent
         section.recomendations 
             .content-zone 
                 .section-header 

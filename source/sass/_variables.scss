@@ -1,38 +1,33 @@
 // main colors
 
-$color_main_light: #69B99D;
-$color_main_dark: #0B2E29;
-
+$color_main_light: #69b99d;
+$color_main_dark: #0b2e29;
 
 // secondary colors
 
-$color_secondary_light: #F8F9FE;
-$color_secondary_medium: #73788C;
-$color_secondary_dark: #1F2744;
-
+$color_secondary_light: #f8f9fe;
+$color_secondary_medium: #73788c;
+$color_secondary_dark: #1f2744;
 
 // additional colors
 
 $color_mixed: #054457;
-$color_social_links: #29CDB5;
-
+$color_social_links: #29cdb5;
 
 // gray colors
 
-$color_white: #FFFFFF;
-$color_gray_950: #FEFEFF;
-$color_gray_900: #F5F5F5;
-$color_gray_800: #DEDCDA;
-$color_gray_700: #A6A6A6;
-$color_gray_600: #8E8E8E;
+$color_white: #ffffff;
+$color_gray_950: #fefeff;
+$color_gray_900: #f5f5f5;
+$color_gray_800: #dedcda;
+$color_gray_700: #a6a6a6;
+$color_gray_600: #8e8e8e;
 $color_gray_500: #767676;
-
 
 // shadows
 
 $shadow_gray: 35px 35px 65px rgba(146, 106, 120, 0.16);
 $shadow_color: 0px 0px 20px rgba(105, 185, 157, 0.58);
-
 
 // sizes
 
@@ -41,13 +36,3 @@ $size_content: 1196px;
 // pixel grid
 
 $unit: 8px;
-$unit_2x: ($unit * 2);
-$unit_3x: ($unit * 3);
-$unit_4x: ($unit * 4);
-$unit_5x: ($unit * 5);
-$unit_6x: ($unit * 6);
-$unit_7x: ($unit * 7);
-$unit_8x: ($unit * 8);
-$unit_9x: ($unit * 9);
-$unit_10x: ($unit * 10);
-$unit_15x: ($unit * 15);

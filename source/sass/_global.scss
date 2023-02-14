@@ -1,0 +1,32 @@
+body {
+    background-color: $color_white;
+}
+
+.content-zone {
+    width: $size_content;
+    margin: 0 auto;
+    padding: 0 ($unit * 3);
+    min-width: $size_content;
+}
+
+@mixin setFlexSpaceBetween($gap: initial) {
+    display: flex;
+    justify-content: space-between;
+    gap: $gap;
+}
+
+@mixin setInlineFlexCenter {
+    display: inline-flex;
+    align-items: center;
+}
+
+@mixin setButton {
+    @include buttonsFont;
+    padding: ($unit * 6);
+    padding-top: ($unit * 2);
+    padding-bottom: ($unit * 2 - 1);
+
+    &:hover {
+        box-shadow: $shadow_color;
+    }
+}
