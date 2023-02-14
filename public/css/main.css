@@ -3,6 +3,13 @@ html {
   box-sizing: border-box;
 }
 
+.content-zone {
+  width: 1196px;
+  margin: 0 auto;
+  padding: 0 24px;
+  min-width: 1196px;
+}
+
 @supports (-webkit-appearance:none) {
 
 }
