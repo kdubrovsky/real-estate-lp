@@ -32,3 +32,22 @@ $color_gray_500: #767676;
 
 $shadow_gray: 35px 35px 65px rgba(146, 106, 120, 0.16);
 $shadow_color: 0px 0px 20px rgba(105, 185, 157, 0.58);
+
+
+// sizes
+
+$size_content: 1196px;
+
+// pixel grid
+
+$unit: 8px;
+$unit_2x: ($unit * 2);
+$unit_3x: ($unit * 3);
+$unit_4x: ($unit * 4);
+$unit_5x: ($unit * 5);
+$unit_6x: ($unit * 6);
+$unit_7x: ($unit * 7);
+$unit_8x: ($unit * 8);
+$unit_9x: ($unit * 9);
+$unit_10x: ($unit * 10);
+$unit_15x: ($unit * 15);
