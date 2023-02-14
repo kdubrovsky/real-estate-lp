@@ -1,9 +1,9 @@
-@import url(abstracts/_all.scss);
+@import "./abstracts/_all";
 
-@import url(core/_all.scss);
+@import "./core/_all";
 
-@import url(components/_all.scss);
+@import "./components/_all";
 
-@import url(layouts/_all.scss);
+@import "./layouts/_all";
 
-@import url(blocks/_all.scss);
+@import "./blocks/_all";
