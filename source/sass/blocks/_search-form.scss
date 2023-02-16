@@ -1,0 +1,31 @@
+.search-form {
+    &__tabs {
+        @include setInlineFlexCenter;
+    }
+
+    &__tab {
+        padding: calc($unit * 3 / 2) ($unit * 4);
+        @include searchFormTabsFont;
+
+        &--active {
+            color: $color_main_light;
+            background-color: $color_white;
+        }
+
+        &--normal {
+            color: $color_gray_700;
+            cursor: pointer;
+
+            &:hover {
+                color: $color_main_dark;
+            }
+        }
+    }
+
+    &__buy {
+        background-color: $color_gray_950;
+        box-shadow: $shadow_gray;
+        width: 751px; //TO DO
+        height: 124px; // TO DO
+    }
+}

@@ -1,0 +1,8 @@
+.features {
+    background-color: $color_gray_900;
+    display: flow-root;
+
+    &__wrapper {
+        margin: ($unit * 10) 0;
+    }
+}

@@ -46,6 +46,7 @@
     "gulp-shorthand": "^1.1.0",
     "gulp-size": "^4.0.1",
     "gulp-ttf2woff2": "^4.0.1",
+    "gulp-typograf": "^4.0.3",
     "gulp-webp": "^4.0.1",
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2",

@@ -1,0 +1,34 @@
+.btn-primary {
+    @include setButton();
+    background-color: $color_main_light;
+    color: $color_white;
+
+    &:hover {
+        box-shadow: $shadow_color;
+    }
+}
+
+.btn-secondary {
+    @include setButton();
+    background-color: transparent;
+    color: $color_main_light;
+
+    &:hover {
+        color: $color_main_dark;
+    }
+}
+
+.btn-action {
+    @include setButton();
+    background-color: white;
+    color: $color_main_light;
+    border: 1px solid $color_main_light;
+    padding: calc($unit * 3 / 2 - 1px);
+    width: 100%;
+
+    &:hover {
+        color: $color_white;
+        background-color: $color_main_light;
+        box-shadow: $shadow_color;
+    }
+}

@@ -2,10 +2,12 @@
 
 @import "_reset";
 
+@import "_mixins";
+
 @import "_typography";
 
 @import "_global";
 
-@import "_blocks";
+@import "blocks/all";
 
-@import "_sections";
+@import "sections/all";

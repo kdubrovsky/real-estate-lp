@@ -1,0 +1,35 @@
+.section-header {
+    @include setFlexSpaceBetween;
+    align-items: flex-end;
+    width: 100%;
+
+    &__content {
+        @include setFlexColumnLeft($unit * 2);
+        width: ($unit * 62);
+    }
+
+    &__title {
+        @include sectionTitleFont;
+        color: $color_main_dark;
+    }
+    &__description {
+        @include sectionDescriptionFont;
+        color: $color_secondary_medium;
+    }
+
+    &__read-more {
+        @include readMoreFont;
+        @include setInlineFlexCenter($unit);
+        color: $color_main_light;
+        padding: calc($unit * 3 / 2) ($unit * 3);
+
+        &::after {
+            content: "";
+            width: 24px;
+            height: 24px;
+            filter: drop-shadow($shadow_color);
+            background-image: url("../img/arrow-right.svg");
+            background-position: center;
+        }
+    }
+}

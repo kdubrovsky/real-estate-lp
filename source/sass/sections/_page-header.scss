@@ -1,0 +1,19 @@
+.page-header {
+    background-color: $color_gray_900;
+    display: flow-root;
+
+    &__wrapper {
+        @include setFlexSpaceBetween;
+        align-items: center;
+        margin: ($unit * 4) 0;
+    }
+
+    &__nav {
+        @include setFlexGap(32px);
+        align-items: center;
+    }
+
+    &__auth-controls {
+        @include setFlexGap(8px);
+    }
+}

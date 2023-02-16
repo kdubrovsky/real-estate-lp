@@ -1,0 +1,8 @@
+.page-footer {
+    display: flow-root;
+    background-color: $color_gray_900;
+
+    &__wrapper {
+        margin: ($unit * 7.5) 0;
+    }
+}

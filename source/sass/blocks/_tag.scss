@@ -1,0 +1,7 @@
+.tag {
+    @include setInlineFlexCenter;
+    @include tagsFont;
+    padding: calc($unit * 3 / 2) ($unit * 3);
+    background-color: $color_secondary_light;
+    color: $color_main_light;
+}

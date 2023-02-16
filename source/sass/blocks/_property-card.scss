@@ -1,0 +1,56 @@
+.property-card {
+    border: 1px solid $color_gray_800;
+    padding: ($unit * 2 - 1px);
+
+    &:hover {
+        @include setSmooth;
+        box-shadow: $shadow_gray;
+        transform: translateY(-1px);
+    }
+
+    &__link-wrapper {
+        padding-bottom: 24px;
+        @include setFlexColumn(16px);
+    }
+
+    &__photo img {
+        display: block;
+        height: 238px;
+    }
+
+    &__title {
+        @include propertyCardTitleFont;
+        color: $color_secondary_dark;
+    }
+    &__location {
+        @include propertyCardLocationFont;
+        color: $color_gray_700;
+    }
+    &__price {
+        @include propertyCardPriceFont;
+        color: $color_main_light;
+    }
+
+    &__main-content {
+        @include setFlexColumn(8px);
+    }
+
+    &__area {
+        @include setFlexGap($unit * 0.5);
+        padding: ($unit * 0.5) $unit;
+        background-color: $color_gray_900;
+    }
+
+    &__price-content {
+        @include setFlexGap($unit * 4);
+    }
+
+    &__area-size {
+        @include propertyCardAreaSizeFont;
+        color: $color_secondary_dark;
+    }
+    &__area-type {
+        @include propertyCardAreaTypeFont;
+        color: $color_gray_700;
+    }
+}

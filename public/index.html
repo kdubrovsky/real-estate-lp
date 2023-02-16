@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
-    <header class="page-header"> 
+    <header class="page-header">
       <div class="content-zone">
         <div class="page-header__wrapper">
           <div class="logo"><a href="#"><img src="./img/logo-mulih.svg" alt="Mulih Logotype"></a></div>
-          <nav class="page-header__nav"> 
-            <div class="main-menu"> 
-              <ul class="main-menu__list"> 
+          <nav class="page-header__nav">
+            <div class="main-menu">
+              <ul class="main-menu__list">
                 <li class="main-menu__item main-menu__item--active"> <a class="main-menu__link" href="#">Home</a></li>
-                <li class="main-menu__item"> <a class="main-menu__link" href="#">Property</a></li>
-                <li class="main-menu__item"> <a class="main-menu__link" href="#">About</a></li>
-                <li class="main-menu__item"> <a class="main-menu__link" href="#">Service</a></li>
-                <li class="main-menu__item"> <a class="main-menu__link" href="#">Contact</a></li>
+                <li class="main-menu__item main-menu__item--normal"> <a class="main-menu__link" href="#">Property</a></li>
+                <li class="main-menu__item main-menu__item--normal"><a class="main-menu__link" href="#">About</a></li>
+                <li class="main-menu__item main-menu__item--normal"> <a class="main-menu__link" href="#">Service</a></li>
+                <li class="main-menu__item main-menu__item--normal"> <a class="main-menu__link" href="#">Contact</a></li>
               </ul>
             </div>
             <div class="page-header__auth-controls">
@@ -33,142 +33,146 @@
         </div>
       </div>
     </header>
-    <section class="hero"> 
-      <div class="content-zone"> 
+    <section class="hero">
+      <div class="content-zone">
         <div class="hero__wrapper">
           <div class="hero__content">
             <div class="tag">Real estate</div>
-            <h1 class="hero__title">Let's hunt for your dream residence</h1>
-            <div class="hero__description"> 
-              <p>Explore our range of beautiful properties with the addition of separate accommodation suitable for you.</p>
+            <h1 class="hero__title">Let’s hunt for your dream residence</h1>
+            <div class="hero__description">
+              <p>Explore our range of beautiful properties with the addition of separate accommodation suitable for you.</p>
             </div>
           </div>
-          <div class="search-form"> 
-            <ul class="search-form__tabs"> 
-              <li class="search-form__tab search-form__tab--active">Buy</li>
-              <li class="search-form__tab search-form__tab--normal">Rent</li>
-            </ul>
+          <div class="search-form">
+            <div class="search-form__tabs">
+              <div class="search-form__tab search-form__tab--active">Buy</div>
+              <div class="search-form__tab search-form__tab--normal">Rent</div>
+            </div>
             <form class="search-form__buy"></form>
             <form class="search-form__rent"></form>
           </div>
         </div>
       </div>
     </section>
-    <section class="recomendations"> 
-      <div class="content-zone"> 
-        <div class="section-header"> 
-          <div class="section-header__content">
-            <div class="tag">Discover</div>
-            <h2 class="section-header__title">Best recomendation</h2>
-            <div class="section-header__description"> 
-              <p>Discover our exclusive selection of the finest one-of-a-kind luxury properties architectural masterpieces.</p>
-            </div>
-          </div><a class="section-header__read-more" href="#">Learn more</a>
-        </div>
-        <div class="recomendations__cards">
-          <div class="property-card"><a class="property-card__link-wrapper" href="#">
-              <div class="property-card__photo"> <img src="./img/property-1.jpg" alt=""></div>
-              <div class="property-card__main-content">
-                <h3 class="property-card__title">Perum griya asri</h3>
-                <p class="property-card__location">Bogor, Jawa Barat</p>
+    <section class="recomendations">
+      <div class="content-zone">
+        <div class="recomendations__wrapper">
+          <div class="section-header">
+            <div class="section-header__content">
+              <div class="tag">Discover</div>
+              <h2 class="section-header__title">Best recomendation</h2>
+              <div class="section-header__description">
+                <p>Discover our exclusive selection of the finest one-of-a-kind luxury properties architectural masterpieces.</p>
               </div>
-              <div class="property-card__price-content"> 
-                <p class="property-card__price">$25,000</p>
-                <p class="property-card__area"><span class="property-card__area-size">360m²</span><span class="property-card__area-type">Living Area</span></p>
-              </div></a>
-            <button class="btn-action">Send inquiry</button>
+            </div><a class="section-header__read-more" href="#">Learn more</a>
           </div>
-          <div class="property-card"><a class="property-card__link-wrapper" href="#">
-              <div class="property-card__photo"> <img src="./img/property-2.jpg" alt=""></div>
-              <div class="property-card__main-content">
-                <h3 class="property-card__title">Perum kencana asri</h3>
-                <p class="property-card__location">Bogor, Jawa Barat</p>
-              </div>
-              <div class="property-card__price-content"> 
-                <p class="property-card__price">$35,000</p>
-                <p class="property-card__area"> <span class="property-card__area-size">360m²</span><span class="property-card__area-type">Living Area</span></p>
-              </div></a>
-            <button class="btn-action">Send inquiry</button>
-          </div>
-          <div class="property-card"><a class="property-card__link-wrapper" href="#">
-              <div class="property-card__photo"> <img src="./img/property-3.jpg" alt=""></div>
-              <div class="property-card__main-content">
-                <h3 class="property-card__title">Perum rakjel elit</h3>
-                <p class="property-card__location">Bogor, Jawa Barat</p>
-              </div>
-              <div class="property-card__price-content"> 
-                <p class="property-card__price">$40,000</p>
-                <p class="property-card__area"><span class="property-card__area-size">360m²</span><span class="property-card__area-type">Living Area</span></p>
-              </div></a>
-            <button class="btn-action">Send inquiry</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="features"> 
-      <div class="content-zone"> 
-        <div class="section-header"> 
-          <div class="section-header__content">
-            <div class="tag">Our advante</div>
-            <h2 class="section-header__title">Giving you peace of mind</h2>
-          </div>
-        </div>
-        <div class="features__grid"> 
-          <div class="features__item">
-            <h3 class="features__item-title">Comfortable</h3>
-            <div class="features__item-description">
-              <p>Enjoy lifestyle amenities designed to provide every homeowners modern comfort, a stone's throw away from schools, churches, and hospitals.</p>
+          <div class="recomendations__cards">
+            <div class="property-card"><a class="property-card__link-wrapper" href="#">
+                <div class="property-card__photo"> <img src="./img/property-1.jpg" alt=""></div>
+                <div class="property-card__main-content">
+                  <h3 class="property-card__title">Perum griya asri</h3>
+                  <p class="property-card__location">Bogor, Jawa Barat</p>
+                </div>
+                <div class="property-card__price-content">
+                  <p class="property-card__price">$25,000</p>
+                  <p class="property-card__area"><span class="property-card__area-size">360m²</span><span class="property-card__area-type">Living Area</span></p>
+                </div></a>
+              <button class="btn-action">Send inquiry</button>
             </div>
-          </div>
-          <div class="features__item">
-            <h3 class="features__item-title">Extra security</h3>
-            <div class="features__item-description">
-              <p>You can connect with potential tenants without having to share your phone number. We also require all users to register to validate their legitimacy.                            </p>
+            <div class="property-card"><a class="property-card__link-wrapper" href="#">
+                <div class="property-card__photo"> <img src="./img/property-2.jpg" alt=""></div>
+                <div class="property-card__main-content">
+                  <h3 class="property-card__title">Perum kencana asri</h3>
+                  <p class="property-card__location">Bogor, Jawa Barat</p>
+                </div>
+                <div class="property-card__price-content">
+                  <p class="property-card__price">$35,000</p>
+                  <p class="property-card__area"> <span class="property-card__area-size">360m²</span><span class="property-card__area-type">Living Area</span></p>
+                </div></a>
+              <button class="btn-action">Send inquiry</button>
             </div>
-          </div>
-          <div class="features__item">
-            <h3 class="features__item-title">Luxury</h3>
-            <div class="features__item-description">
-              <p>Find out how we provide the highest standard of professional property management to give you all the benefits of property.</p>
-            </div>
-          </div>
-          <div class="features__item">
-            <h3 class="features__item-title">Best price</h3>
-            <div class="features__item-description">
-              <p>Not sure what you should be charging for your property? Let us do the numbers for you—contact us today for a free rental appraisal on your home.</p>
-            </div>
-          </div>
-          <div class="features__item">
-            <h3 class="features__item-title">Strategic location</h3>
-            <div class="features__item-description">
-              <p>located in the city center close to the shopping center. Very good for areas surrounded by international education centers, start-up office centers.                            </p>
-            </div>
-          </div>
-          <div class="features__item">
-            <h3 class="features__item-title">Efficient</h3>
-            <div class="features__item-description">
-              <p>Schedule visits to multiple properties at once in one day without having to call them one by one. Check everything and find the best properties for rent</p>
+            <div class="property-card"><a class="property-card__link-wrapper" href="#">
+                <div class="property-card__photo"> <img src="./img/property-3.jpg" alt=""></div>
+                <div class="property-card__main-content">
+                  <h3 class="property-card__title">Perum rakjel elit</h3>
+                  <p class="property-card__location">Bogor, Jawa Barat</p>
+                </div>
+                <div class="property-card__price-content">
+                  <p class="property-card__price">$40,000</p>
+                  <p class="property-card__area"><span class="property-card__area-size">360m²</span><span class="property-card__area-type">Living Area</span></p>
+                </div></a>
+              <button class="btn-action">Send inquiry</button>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="about"> 
+    <section class="features">
+      <div class="content-zone">
+        <div class="features__wrapper">
+          <div class="section-header">
+            <div class="section-header__content">
+              <div class="tag">Our advante</div>
+              <h2 class="section-header__title">Giving you peace of mind</h2>
+            </div>
+          </div>
+          <div class="features__grid">
+            <div class="features__item">
+              <h3 class="features__item-title">Comfortable</h3>
+              <div class="features__item-description">
+                <p>Enjoy lifestyle amenities designed to provide every homeowners modern comfort, a stone’s throw away from schools, churches, and hospitals.</p>
+              </div>
+            </div>
+            <div class="features__item">
+              <h3 class="features__item-title">Extra security</h3>
+              <div class="features__item-description">
+                <p>You can connect with potential tenants without having to share your phone number. We also require all users to register to validate their legitimacy. </p>
+              </div>
+            </div>
+            <div class="features__item">
+              <h3 class="features__item-title">Luxury</h3>
+              <div class="features__item-description">
+                <p>Find out how we provide the highest standard of professional property management to give you all the benefits of property.</p>
+              </div>
+            </div>
+            <div class="features__item">
+              <h3 class="features__item-title">Best price</h3>
+              <div class="features__item-description">
+                <p>Not sure what you should be charging for your property? Let us do the numbers for you—contact us today for a free rental appraisal on your home.</p>
+              </div>
+            </div>
+            <div class="features__item">
+              <h3 class="features__item-title">Strategic location</h3>
+              <div class="features__item-description">
+                <p>located in the city center close to the shopping center. Very good for areas surrounded by international education centers, start-up office centers. </p>
+              </div>
+            </div>
+            <div class="features__item">
+              <h3 class="features__item-title">Efficient</h3>
+              <div class="features__item-description">
+                <p>Schedule visits to multiple properties at once in one day without having to call them one by one. Check everything and find the best properties for rent</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
       <div class="content-zone">
         <div class="about__wrapper">
-          <div class="section-header"> 
+          <div class="section-header">
             <div class="section-header__content">
               <div class="tag">About us</div>
-              <h2 class="section-header__title">How much is your property worth now?</h2>
-              <div class="section-header__description"> 
-                <p>We have built our reputation as true local area experts. We have gained more knowledge about buyer interests, our neighborhood and the market than any other brand because we live locally and work for local people.</p>
+              <h2 class="section-header__title">How much is your property worth now?</h2>
+              <div class="section-header__description">
+                <p>We have built our reputation as true local area experts. We have gained more knowledge about buyer interests, our neighborhood and the market than any other brand because we live locally and work for local people.</p>
               </div>
             </div><a class="btn-cta-link">Learn more</a>
           </div>
           <div class="about__content">
-            <div class="about__rating-card"> 
+            <div class="about__rating-card">
               <p class="about__rating-amount">4.8</p>
-              <ul class="stars"> 
+              <ul class="stars">
                 <li class="stars__item stars__item--full"></li>
                 <li class="stars__item stars__item--full"></li>
                 <li class="stars__item stars__item--full"></li>
@@ -178,7 +182,7 @@
               <p class="about__trusted-caption">Trusted on</p>
               <p class="about__reviews-count">500+ Reviews</p>
             </div>
-            <div class="about__indicators-wrapper"> 
+            <div class="about__indicators-wrapper">
               <div class="about__indicator-item">
                 <p class="about__indicator-value">250+</p>
                 <p class="about__indicator-caption">Property sale</p>
@@ -193,90 +197,92 @@
         </div>
       </div>
     </section>
-    <section class="feedback"> 
-      <div class="content-zone"> 
-        <div class="section-header"> 
-          <div class="section-header__content">
-            <div class="tag">Customer testimonial</div>
-            <h2 class="section-header__title">People say about us?</h2>
-          </div><a class="section-header__read-more" href="#">Learn more</a>
-        </div>
-        <div class="feedback__grid"> 
-          <div class="testimonial-card"> 
-            <h3 class="testimonial-card__title">It proved to be exactly the kind of home we wanted.</h3>
-            <div class="testimonial-card__text">
-              <p>We wish to express our thanks for your hard work in finding us a temporary home, which proved to be exactly what we wanted.</p>
-            </div>
-            <div class="testimonial-card__author"> 
-              <div class="testimonial-card__avatar"> <img src="./img/avatar-1.png" alt="Jaydon Aminoff"></div>
-              <div class="testimonial-card__author-content"> 
-                <p class="testimonial-card__author-name">Jaydon Aminoff</p>
-                <p class="testimonial-card__author-job">UX Designer</p>
+    <section class="feedback">
+      <div class="content-zone">
+        <div class="feedback__wrapper">
+          <div class="section-header">
+            <div class="section-header__content">
+              <div class="tag">Customer testimonial</div>
+              <h2 class="section-header__title">People say about us?</h2>
+            </div><a class="section-header__read-more" href="#">Learn more</a>
+          </div>
+          <div class="feedback__grid">
+            <div class="testimonial-card">
+              <h3 class="testimonial-card__title">It proved to be exactly the kind of home we wanted.</h3>
+              <div class="testimonial-card__text">
+                <p>We wish to express our thanks for your hard work in finding us a temporary home, which proved to be exactly what we wanted.</p>
+              </div>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar"> <img src="./img/avatar-1.png" alt="Jaydon Aminoff"></div>
+                <div class="testimonial-card__author-content">
+                  <p class="testimonial-card__author-name">Jaydon Aminoff</p>
+                  <p class="testimonial-card__author-job">UX Designer</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="testimonial-card"> 
-            <h3 class="testimonial-card__title">Nobody knows Portland and the peninsula better than David.</h3>
-            <div class="testimonial-card__text">
-              <p>My wife and I had a dream of downsizing from our house in Cape Elizabeth into a small condo closer to where we work and play in Portland.</p>
-            </div>
-            <div class="testimonial-card__author"> 
-              <div class="testimonial-card__avatar"> <img src="./img/avatar-2.png" alt="Alfredo Donin"></div>
-              <div class="testimonial-card__author-content"> 
-                <p class="testimonial-card__author-name">Alfredo Donin</p>
-                <p class="testimonial-card__author-job">UI Designer</p>
+            <div class="testimonial-card">
+              <h3 class="testimonial-card__title">Nobody knows Portland and the peninsula better than David.</h3>
+              <div class="testimonial-card__text">
+                <p>My wife and I had a dream of downsizing from our house in Cape Elizabeth into a small condo closer to where we work and play in Portland.</p>
+              </div>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar"> <img src="./img/avatar-2.png" alt="Alfredo Donin"></div>
+                <div class="testimonial-card__author-content">
+                  <p class="testimonial-card__author-name">Alfredo Donin</p>
+                  <p class="testimonial-card__author-job">UI Designer</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="testimonial-card"> 
-            <h3 class="testimonial-card__title">He keeps his client's best interests in sharp focus</h3>
-            <div class="testimonial-card__text">
-              <p>After working with David to sell my home in 2013, I was convinced that he’s the only realtor I’ll ever need. Since then, I’ve bought two properties and sold one.</p>
-            </div>
-            <div class="testimonial-card__author"> 
-              <div class="testimonial-card__avatar"> <img src="./img/avatar-3.png" alt="Makenna Korsgaard"></div>
-              <div class="testimonial-card__author-content"> 
-                <p class="testimonial-card__author-name">Makenna Korsgaard</p>
-                <p class="testimonial-card__author-job">UX Researcher</p>
+            <div class="testimonial-card">
+              <h3 class="testimonial-card__title">He keeps his client’s best interests in sharp focus</h3>
+              <div class="testimonial-card__text">
+                <p>After working with David to sell my home in 2013, I was convinced that he’s the only realtor I’ll ever need. Since then, I’ve bought two properties and sold one.</p>
+              </div>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar"> <img src="./img/avatar-3.png" alt="Makenna Korsgaard"></div>
+                <div class="testimonial-card__author-content">
+                  <p class="testimonial-card__author-name">Makenna Korsgaard</p>
+                  <p class="testimonial-card__author-job">UX Researcher</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer class="page-footer"> 
+    <footer class="page-footer">
       <div class="content-zone">
-        <div class="page-footer__wrapper"> 
+        <div class="page-footer__wrapper">
           <div class="page-footer__main-info">
-            <div class="logo">  <a href="#"><img src="./img/logo-mulih.svg" alt="Mulih Logotype"></a></div>
-            <div class="page-footer__tagline">We have built our reputation as true local area experts.</div>
-            <div class="page-footer__subscribe-form"> 
+            <div class="logo"> <a href="#"><img src="./img/logo-mulih.svg" alt="Mulih Logotype"></a></div>
+            <div class="page-footer__tagline">We have built our reputation as true local area experts.</div>
+            <div class="page-footer__subscribe-form">
               <label class="page-footer__subscribe-label" for="email">Newsletter</label>
               <input class="page-footer__mail-input" type="text" id="email" name="email" placeholder="input your email">
               <button class="page-footer__btn-subscribe">Send</button>
             </div>
           </div>
           <div class="page-footer__menu-wrapper">
-            <div class="page-footer__menu"> 
+            <div class="page-footer__menu">
               <h3 class="page-footer__column-title">Service</h3>
-              <ul class="page-footer__menu-list"> 
+              <ul class="page-footer__menu-list">
                 <li class="page-footer__menu-item"> <a class="page-footer__menu-link" href="#"> About us</a></li>
                 <li class="page-footer__menu-item"> <a class="page-footer__menu-link" href="#">Careers</a></li>
                 <li class="page-footer__menu-item"> <a class="page-footer__menu-link" href="#">Terms & Conditions</a></li>
                 <li class="page-footer__menu-item"> <a class="page-footer__menu-link" href="#">Privacy & Policy</a></li>
               </ul>
             </div>
-            <div class="page-footer__menu"> 
+            <div class="page-footer__menu">
               <h3 class="page-footer__column-title">Community</h3>
-              <ul class="page-footer__menu-list"> 
+              <ul class="page-footer__menu-list">
                 <li class="page-footer__menu-item"> <a class="page-footer__menu-link">Find agents</a></li>
                 <li class="page-footer__menu-item"> <a class="page-footer__menu-link">Lifestyle</a></li>
                 <li class="page-footer__menu-item"> <a class="page-footer__menu-link">Legal notice</a></li>
               </ul>
             </div>
           </div>
-          <div class="page-footer__social"> 
-            <h3 class="page-footer__column-title">Follow us on</h3>
+          <div class="page-footer__social">
+            <h3 class="page-footer__column-title">Follow us on</h3>
             <div class="page-footer__social-links"> <a class="page-footer__social-link page-footer__social-link--instagram" href="#"> </a><a class="page-footer__social-link page-footer__social-link--youtube" href="#"> </a><a class="page-footer__social-link page-footer__social-link--facebook" href="#"></a></div>
           </div>
         </div>

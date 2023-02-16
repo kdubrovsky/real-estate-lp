@@ -1,0 +1,31 @@
+.hero {
+    background-color: $color_gray_900;
+    background-image: url("../img/house-cover.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    display: flow-root;
+
+    &__wrapper {
+        margin-top: ($unit * 4);
+        margin-bottom: ($unit * 13.5);
+    }
+
+    &__content {
+        width: ($unit * 75);
+    }
+
+    &__title {
+        @include heroTitleFont;
+        color: $color_secondary_dark;
+        margin-top: ($unit * 4);
+    }
+
+    &__description {
+        @include heroDescriptionFont;
+        color: $color_secondary_medium;
+        width: ($unit * 63);
+        margin-top: ($unit * 3);
+        margin-bottom: ($unit * 8);
+    }
+}

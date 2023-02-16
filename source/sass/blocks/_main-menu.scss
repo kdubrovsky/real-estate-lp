@@ -1,0 +1,38 @@
+.main-menu {
+    &__list {
+        @include setFlexGap($unit * 6);
+        align-items: center;
+    }
+
+    &__item {
+        @include mainMenuFont;
+
+        &--normal {
+            color: $color_gray_600;
+
+            &:hover {
+                color: $color_main_dark;
+            }
+        }
+
+        &--active {
+            color: $color_main_light;
+
+            a {
+                cursor: auto;
+            }
+
+            &::after {
+                content: "";
+                display: block;
+                width: 6px;
+                height: 6px;
+                background-color: $color_main_light;
+                border-radius: 50%;
+                overflow: hidden;
+                margin: 0 auto;
+                margin-top: $unit;
+            }
+        }
+    }
+}

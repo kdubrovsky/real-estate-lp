@@ -1,0 +1,12 @@
+.recomendations {
+    display: flow-root;
+
+    &__wrapper {
+        margin: ($unit * 15) 0;
+    }
+
+    &__cards {
+        margin-top: ($unit * 6);
+        @include setFlexSpaceBetween;
+    }
+}

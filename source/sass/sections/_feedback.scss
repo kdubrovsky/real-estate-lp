@@ -1,0 +1,7 @@
+.feedback {
+    display: flow-root;
+
+    &__wrapper {
+        margin-bottom: ($unit * 15);
+    }
+}
