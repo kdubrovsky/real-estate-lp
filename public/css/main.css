@@ -37,7 +37,7 @@ body {
 .btn-primary {
   font: 500 16px/1.5 "Poppins", sans-serif;
   background: #69b99d;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   -o-transition: transform 200ms ease;
@@ -60,7 +60,7 @@ body {
 .btn-secondary {
   font: 500 16px/1.5 "Poppins", sans-serif;
   background: transparent;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   -o-transition: transform 200ms ease;
@@ -82,7 +82,7 @@ body {
 .btn-action {
   font: 500 16px/1.5 "Poppins", sans-serif;
   background: white;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   -o-transition: transform 200ms ease;
@@ -166,7 +166,7 @@ body {
 .search-form__tab {
   font: 500 24px/1.333 "Poppins", sans-serif;
   padding: 12px 32px;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
 }
 
 .search-form__tab--active {
@@ -262,19 +262,19 @@ body {
 
 .property-card__title {
   font: 600 24px/1.334 "Poppins", sans-serif;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   color: #1f2744;
 }
 
 .property-card__location {
   font: 400 16px/1.625 "Poppins", sans-serif;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   color: #a6a6a6;
 }
 
 .property-card__price {
   font: 600 24px/1.333 "Poppins", sans-serif;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   color: #69b99d;
 }
 
@@ -313,13 +313,13 @@ body {
 
 .property-card__area-size {
   font: 500 16px/1.5 "Poppins", sans-serif;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   color: #1f2744;
 }
 
 .property-card__area-type {
   font: 400 16px/1.5 "Poppins", sans-serif;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   color: #a6a6a6;
 }
 
@@ -359,7 +359,7 @@ body {
 
 .section-header__description {
   font: 400 16px/1.625 "Poppins", sans-serif;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   color: #73788c;
 }
 
@@ -444,14 +444,14 @@ body {
 
 .hero__title {
   font: 600 64px/1.1563 "Rubik", sans-serif;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   color: #1f2744;
   margin-top: 32px;
 }
 
 .hero__description {
   font: 400 16px/1.5 "Poppins", sans-serif;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.25px;
   color: #73788c;
   width: 504px;
   margin-top: 24px;

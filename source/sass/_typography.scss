@@ -16,7 +16,7 @@
 }
 
 @mixin buttonsFont {
-    @include setFont("Poppins", 500, 16px, 1.5, 0.25%);
+    @include setFont("Poppins", 500, 16px, 1.5, 0.25px);
 }
 
 @mixin tagsFont {
@@ -25,11 +25,11 @@
 }
 
 @mixin heroTitleFont {
-    @include setFont("Rubik", 600, 64px, 1.1563, 0.25%);
+    @include setFont("Rubik", 600, 64px, 1.1563, 0.25px);
 }
 
 @mixin heroDescriptionFont {
-    @include setFont("Poppins", 400, 16px, 1.5, 0.25%);
+    @include setFont("Poppins", 400, 16px, 1.5, 0.25px);
 }
 
 @mixin sectionTitleFont {
@@ -37,7 +37,7 @@
 }
 
 @mixin sectionDescriptionFont {
-    @include setFont("Poppins", 400, 16px, 1.625, 0.25%);
+    @include setFont("Poppins", 400, 16px, 1.625, 0.25px);
 }
 
 @mixin readMoreFont {
@@ -46,27 +46,27 @@
 }
 
 @mixin searchFormTabsFont {
-    @include setFont("Poppins", 500, 24px, 1.333, 0.25%);
+    @include setFont("Poppins", 500, 24px, 1.333, 0.25px);
 }
 
 @mixin propertyCardTitleFont {
-    @include setFont("Poppins", 600, 24px, 1.334, 0.25%);
+    @include setFont("Poppins", 600, 24px, 1.334, 0.25px);
 }
 
 @mixin propertyCardLocationFont {
-    @include setFont("Poppins", 400, 16px, 1.625, 0.25%);
+    @include setFont("Poppins", 400, 16px, 1.625, 0.25px);
 }
 
 @mixin propertyCardPriceFont {
-    @include setFont("Poppins", 600, 24px, 1.333, 0.25%);
+    @include setFont("Poppins", 600, 24px, 1.333, 0.25px);
 }
 
 @mixin propertyCardAreaSizeFont {
-    @include setFont("Poppins", 500, 16px, 1.5, 0.25%);
+    @include setFont("Poppins", 500, 16px, 1.5, 0.25px);
 }
 
 @mixin propertyCardAreaTypeFont {
-    @include setFont("Poppins", 400, 16px, 1.5, 0.25%);
+    @include setFont("Poppins", 400, 16px, 1.5, 0.25px);
 }
 
 @mixin featuresItemDescriptionFont {
