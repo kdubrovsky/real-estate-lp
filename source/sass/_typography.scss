@@ -68,3 +68,11 @@
 @mixin propertyCardAreaTypeFont {
     @include setFont("Poppins", 400, 16px, 1.5, 0.25%);
 }
+
+@mixin featuresItemDescriptionFont {
+    @include setFont("Poppins", 400, 16px, 1.625, 0.5px);
+}
+
+@mixin featuresItemTitleFont {
+    @include setFont("Poppins", 700, 28px, 1.357, 0.5px);
+}

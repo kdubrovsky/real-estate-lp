@@ -5,4 +5,32 @@
     &__wrapper {
         margin: ($unit * 10) 0;
     }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: ($unit * 4);
+        margin-top: ($unit * 6);
+    }
+
+    &__item {
+        @include setFlexColumnLeft(16px);
+        padding: ($unit * 2.5);
+    }
+
+    &__item-icon {
+        width: 54px;
+        height: 54px;
+    }
+
+    &__item-title {
+        @include featuresItemTitleFont;
+        color: $color_mixed;
+    }
+
+    &__item-description {
+        @include featuresItemDescriptionFont;
+        color: $color_secondary_medium;
+    }
 }

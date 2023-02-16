@@ -354,7 +354,7 @@ body {
 .section-header__title {
   font: 600 48px/1.167 "Rubik", sans-serif;
   letter-spacing: 0.5px;
-  color: #0b2e29;
+  color: #054457;
 }
 
 .section-header__description {
@@ -492,6 +492,46 @@ body {
 
 .features__wrapper {
   margin: 80px 0;
+}
+
+.features__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.features__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px;
+}
+
+.features__item-icon {
+  width: 54px;
+  height: 54px;
+}
+
+.features__item-title {
+  font: 700 28px/1.357 "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  color: #054457;
+}
+
+.features__item-description {
+  font: 400 16px/1.625 "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  color: #73788c;
 }
 
 .about {

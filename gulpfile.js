@@ -16,6 +16,7 @@ import font from './tasks/font.js'
 import pug from './tasks/pug.js'
 import scss from './tasks/scss.js'
 import img from './tasks/img.js'
+import svg from './tasks/svg.js'
 
 
 
@@ -31,6 +32,7 @@ const watcher = () => {
     gulp.watch(path.pug.watch, pug).on('all', browserSync.reload);  // watching Pug
     gulp.watch(path.scss.watch, scss).on('all', browserSync.reload);  // watching CSS
     gulp.watch(path.img.watch, img).on('all', browserSync.reload);  // watching images
+    gulp.watch(path.svg.watch, svg).on('all', browserSync.reload);  // watching svg
     gulp.watch(path.font.watch, font).on('all', browserSync.reload);  // watching fonts
 };
 
@@ -41,13 +43,14 @@ export { font };
 export { pug };
 export { scss };
 export { img };
+export { svg };
 export { watcher };
 
 
 // ------------ builds
 const build = gulp.series(
     clear,
-    gulp.parallel(pug, scss, img, font)
+    gulp.parallel(pug, scss, img, svg, font)
 );
 
 const dev = gulp.series(

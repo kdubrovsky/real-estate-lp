@@ -13,8 +13,6 @@ import notify from 'gulp-notify';                          // notifications
 import imagemin from 'gulp-imagemin';                      // https://www.npmjs.com/package/gulp-imagemin
 import newer from 'gulp-newer';                            // cheking are the files new
 import webp from 'gulp-webp';                              // webp converter
-import gulpIf from 'gulp-if';
-
 
 // ------------ params
 let plumberImgSettings = {

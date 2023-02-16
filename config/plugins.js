@@ -50,5 +50,14 @@ export default {
 
     fonter: {
         formats: ['ttf', 'woff', 'eot', 'svg']
+    },
+
+    svg: {
+        mode: {
+            symbol: {
+                sprite: '../icons.svg',
+                example: true
+            }
+        },
     }
 }

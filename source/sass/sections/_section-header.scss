@@ -10,7 +10,7 @@
 
     &__title {
         @include sectionTitleFont;
-        color: $color_main_dark;
+        color: $color_mixed;
     }
     &__description {
         @include sectionDescriptionFont;
